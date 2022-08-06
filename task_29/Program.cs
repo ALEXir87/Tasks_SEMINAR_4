@@ -1,0 +1,24 @@
+﻿// Задача №29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+Console.WriteLine("Задача №29");
+Console.WriteLine("введи первый элемент: ");
+int numberA = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введи второй элемент: ");
+int numberB = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введи третий элемент: ");
+int numberC = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введи четвёртый элемент: ");
+int numberD = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введи пятый элемент: ");
+int numberE = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введи шестой элемент: ");
+int numberF = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введи седьмой элемент: ");
+int numberG = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введи восьмой элемент: ");
+int numberH = Convert.ToInt32(Console.ReadLine());
+int [] arr ={numberA,numberB,numberC,numberD,numberE,numberF,numberG,numberH};
+Console.Write("Результат: ");
+Console.Write("[");
+Console.Write(string.Join(",", arr));
+Console.Write("]");
+Console.WriteLine();
